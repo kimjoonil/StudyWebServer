@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OUdibk0B+kg9t2Wtd9C/hQuPSQ/DmMuWCdvvkLxcsIgXhw9T0inQc2nIQ/a2csIHRQFN8T66OvncfxaUqvxCGw==",
+  "dgSpecHash": "7FDhHSabXOvqjO0SKGDVffxblSrMJANUD/bMh9ROF/Gy3y4F97icrJ2nkUGptvDbsOOz18PIsPeFsOjgOlLCyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rgl\\source\\repos\\WebTest\\BlazorClient\\BlazorClient.csproj",
+  "projectFilePath": "E:\\StudyWebServer\\WebTest\\BlazorClient\\BlazorClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rgl\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.17\\microsoft.aspnetcore.authorization.5.0.17.nupkg.sha512",
     "C:\\Users\\rgl\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.17\\microsoft.aspnetcore.components.5.0.17.nupkg.sha512",

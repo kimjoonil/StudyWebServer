@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Uzdw9Yw1gKM982Fmm8TVbDGNNDCk8zLIEWxU8VLzJyi83jZquobqfKw+nMGauDwd9NLQMAS54B5hjU31peV3Sg==",
+  "dgSpecHash": "xFIY1VIVJr6CYSY4wIlfSsM8dGejXeftZx0XepMwa62nx62Xl1PdWTr90j8R2bNo2lw+hiuUdkS4Bb5OONZcLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rgl\\source\\repos\\WebTest\\BlazorServer\\BlazorServer.csproj",
+  "projectFilePath": "E:\\StudyWebServer\\WebTest\\BlazorServer\\BlazorServer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

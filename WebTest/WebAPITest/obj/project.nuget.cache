@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rfLG7Lp+wM7OTkjnStMTuLMBBn7ifDaOYxay3bDinmcOWC7e0/XivAsN6UokxS35USZpaQV/w3wEghnSbgs7Gg==",
+  "dgSpecHash": "Bt8J9pxbO+hlGDpbdwH7TxXX9pP+CsadTZby7uytrZIiEuZHAJa1MHJD0iS5LK09TL8OsMtj+6p6H039fMQHcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rgl\\source\\repos\\WebTest\\WebAPITest\\WebAPITest.csproj",
+  "projectFilePath": "E:\\StudyWebServer\\WebTest\\WebAPITest\\WebAPITest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rgl\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\rgl\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

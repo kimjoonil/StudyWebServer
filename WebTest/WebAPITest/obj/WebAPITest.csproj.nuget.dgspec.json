@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rgl\\source\\repos\\WebTest\\WebAPITest\\WebAPITest.csproj": {}
+    "E:\\StudyWebServer\\WebTest\\WebAPITest\\WebAPITest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rgl\\source\\repos\\WebTest\\WebAPITest\\WebAPITest.csproj": {
+    "E:\\StudyWebServer\\WebTest\\WebAPITest\\WebAPITest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rgl\\source\\repos\\WebTest\\WebAPITest\\WebAPITest.csproj",
+        "projectUniqueName": "E:\\StudyWebServer\\WebTest\\WebAPITest\\WebAPITest.csproj",
         "projectName": "WebAPITest",
-        "projectPath": "C:\\Users\\rgl\\source\\repos\\WebTest\\WebAPITest\\WebAPITest.csproj",
+        "projectPath": "E:\\StudyWebServer\\WebTest\\WebAPITest\\WebAPITest.csproj",
         "packagesPath": "C:\\Users\\rgl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rgl\\source\\repos\\WebTest\\WebAPITest\\obj\\",
+        "outputPath": "E:\\StudyWebServer\\WebTest\\WebAPITest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
