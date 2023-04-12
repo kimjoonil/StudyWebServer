@@ -1,0 +1,50 @@
+﻿@using BlazorServerTest.Data;
+
+<p>
+    Users: <b>@Users.Count()</b>
+</p>
+
+<br />
+
+<Counter></Counter>
+
+<ul class="list-group">
+    @foreach (UserData user in Users)
+    {
+        <li @key="user" class="list-group-item">
+           <button type="button" class="btn btn-link" @onclick="(() => KickUser(user))">[Kick]</button>
+            <label style="color:@Color">@user.Name</label>
+        </li>
+    }
+</ul>
+@code {
+
+    [CascadingParameter(Name = "ThemeColor")]
+    string Color { get; set; }
+
+    [Parameter]
+    public List<UserData> Users { get; set; }
+
+    [Parameter]
+    public Action CallbackTest { get; set; }
+
+    // asp.net core 함수 설명: 렌더링 트리의 부모로부터 초기 매개 변수를 수신하여 구성 요소를 시작할 준비가 되면 호출되는 메서드입니다.
+    protected override void OnInitialized()
+    {
+        Users.Add(new UserData() { Name = "rgl" });
+        Users.Add(new UserData() { Name = "rgll" });
+        Users.Add(new UserData() { Name = "rglll" });
+    }
+
+    public void AddUser(UserData user)
+    {
+        Users.Add(user);
+    }
+
+    public void KickUser(UserData user)
+    {
+        Users.Remove(user);
+
+        CallbackTest.Invoke();
+    }
+}

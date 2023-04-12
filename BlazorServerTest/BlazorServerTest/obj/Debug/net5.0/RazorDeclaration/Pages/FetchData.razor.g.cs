@@ -98,7 +98,7 @@ using BlazorServerTest.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 39 "E:\StudyWebServer\BlazorServerTest\BlazorServerTest\Pages\FetchData.razor"
+#line 53 "E:\StudyWebServer\BlazorServerTest\BlazorServerTest\Pages\FetchData.razor"
        
     private WeatherForecast[] forecasts;
 

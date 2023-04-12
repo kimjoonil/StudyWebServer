@@ -100,6 +100,9 @@ using System.Threading;
 #nullable restore
 #line 13 "E:\StudyWebServer\BlazorServerTest\BlazorServerTest\Pages\Counter.razor"
        
+    [CascadingParameter(Name = "ThemeColor")]
+    string Color { get; set; }
+
     private int currentCount = 0;
 
     private void IncrementCount()

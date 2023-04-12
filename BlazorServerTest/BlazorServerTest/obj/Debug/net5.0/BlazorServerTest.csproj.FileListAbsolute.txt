@@ -60,3 +60,7 @@ E:\StudyWebServer\BlazorServerTest\BlazorServerTest\obj\Debug\net5.0\BlazorServe
 E:\StudyWebServer\BlazorServerTest\BlazorServerTest\obj\Debug\net5.0\BlazorServerTest.csproj.CopyComplete
 E:\StudyWebServer\BlazorServerTest\BlazorServerTest\obj\Debug\net5.0\RazorDeclaration\Pages\User.razor.g.cs
 E:\StudyWebServer\BlazorServerTest\BlazorServerTest\obj\Debug\net5.0\Razor\Pages\User.razor.g.cs
+E:\StudyWebServer\BlazorServerTest\BlazorServerTest\obj\Debug\net5.0\RazorDeclaration\Pages\ShowUser.razor.g.cs
+E:\StudyWebServer\BlazorServerTest\BlazorServerTest\obj\Debug\net5.0\Razor\Pages\ShowUser.razor.g.cs
+E:\StudyWebServer\BlazorServerTest\BlazorServerTest\obj\Debug\net5.0\RazorDeclaration\Pages\TableTemplate.razor.g.cs
+E:\StudyWebServer\BlazorServerTest\BlazorServerTest\obj\Debug\net5.0\Razor\Pages\TableTemplate.razor.g.cs

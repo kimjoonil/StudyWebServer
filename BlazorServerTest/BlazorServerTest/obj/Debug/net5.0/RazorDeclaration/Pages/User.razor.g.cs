@@ -98,42 +98,35 @@ using BlazorServerTest.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 37 "E:\StudyWebServer\BlazorServerTest\BlazorServerTest\Pages\User.razor"
+#line 38 "E:\StudyWebServer\BlazorServerTest\BlazorServerTest\Pages\User.razor"
        
+
+    string _selectedColor = "Green";
+    List<string> _options = new List<string>() { "Green", "Red", "Blue" };
 
     List<UserData> _users = new List<UserData>();
 
-    string _inputName;
-    string _btnClass = "btn btn-primary";
+    ShowUser _showUser;
 
-    // asp.net core 함수 설명: 렌더링 트리의 부모로부터 초기 매개 변수를 수신하여 구성 요소를 시작할 준비가 되면 호출되는 메서드입니다.
-    protected override void OnInitialized()
-    {
-        _users.Add(new UserData() { Name = "rgl" });
-        _users.Add(new UserData() { Name = "rgll" });
-        _users.Add(new UserData() { Name = "rglll" });
-        RefreshButton();
-    }
+    string _inputName;
+
+
 
     void AddUser()
     {
-        _users.Add(new UserData() { Name = _inputName });
+        _showUser.AddUser(new UserData() { Name = _inputName });
         _inputName = "";
-        RefreshButton();
     }
 
     void KickUser(UserData user)
     {
         _users.Remove(user);
-        RefreshButton();
     }
 
-    void RefreshButton()
+    void CallbackTestFunc()
     {
-        if (_users.Count() % 2 == 0)
-            _btnClass = "btn btn-primary";
-        else
-            _btnClass = "btn btn-secondary";
+        _inputName = "CallbackTest";
+        StateHasChanged();
     }
 
 #line default
