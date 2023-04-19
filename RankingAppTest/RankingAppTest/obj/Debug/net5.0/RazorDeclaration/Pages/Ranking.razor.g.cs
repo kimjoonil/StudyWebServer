@@ -105,13 +105,54 @@ using RankingAppTest.Data.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 37 "E:\StudyWebServer\RankingAppTest\RankingAppTest\Pages\Ranking.razor"
+#line 82 "E:\StudyWebServer\RankingAppTest\RankingAppTest\Pages\Ranking.razor"
        
 
     List<GameResult> _gameResults;
 
+    bool _showPopup;
+    GameResult _gameResult;
+
     protected override async Task OnInitializedAsync()
     {
+        _gameResults = await RankingService.GetGameResultAsync();
+    }
+
+    void AddGameResult()
+    {
+        _showPopup = true;
+        _gameResult = new GameResult() { id = 0 };
+    }
+
+    void ClosePopup()
+    {
+        _showPopup = false;
+    }
+
+    void UpdateGameResult(GameResult gameResult)
+    {
+        _showPopup = true;
+        _gameResult = gameResult;
+    }
+
+    async Task DeleteGameResult(GameResult gameResult)
+    {
+        RankingService.DeleteGameResult(_gameResult);
+        _gameResults = await RankingService.GetGameResultAsync();
+    }
+
+    async Task SaveGameResult()
+    {
+        if(_gameResult.id == 0)
+        {
+            _gameResult.Date = DateTime.Now;
+            var result = RankingService.AddGameResult(_gameResult);
+        }
+        else
+        {
+            var result = RankingService.UpdateGameResult(_gameResult);
+        }
+
         _gameResults = await RankingService.GetGameResultAsync();
     }
 

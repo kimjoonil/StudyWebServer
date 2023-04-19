@@ -1,0 +1,12 @@
+E:\StudyWebServer\RankingAppTest\SharedData\bin\Debug\net5.0\SharedData.deps.json
+E:\StudyWebServer\RankingAppTest\SharedData\bin\Debug\net5.0\SharedData.dll
+E:\StudyWebServer\RankingAppTest\SharedData\bin\Debug\net5.0\ref\SharedData.dll
+E:\StudyWebServer\RankingAppTest\SharedData\bin\Debug\net5.0\SharedData.pdb
+E:\StudyWebServer\RankingAppTest\SharedData\obj\Debug\net5.0\SharedData.csproj.AssemblyReference.cache
+E:\StudyWebServer\RankingAppTest\SharedData\obj\Debug\net5.0\SharedData.GeneratedMSBuildEditorConfig.editorconfig
+E:\StudyWebServer\RankingAppTest\SharedData\obj\Debug\net5.0\SharedData.AssemblyInfoInputs.cache
+E:\StudyWebServer\RankingAppTest\SharedData\obj\Debug\net5.0\SharedData.AssemblyInfo.cs
+E:\StudyWebServer\RankingAppTest\SharedData\obj\Debug\net5.0\SharedData.csproj.CoreCompileInputs.cache
+E:\StudyWebServer\RankingAppTest\SharedData\obj\Debug\net5.0\SharedData.dll
+E:\StudyWebServer\RankingAppTest\SharedData\obj\Debug\net5.0\ref\SharedData.dll
+E:\StudyWebServer\RankingAppTest\SharedData\obj\Debug\net5.0\SharedData.pdb
