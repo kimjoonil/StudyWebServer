@@ -84,7 +84,7 @@ using RankingAppTest.Shared;
 #nullable disable
 #nullable restore
 #line 2 "E:\StudyWebServer\RankingAppTest\RankingAppTest\Pages\Ranking.razor"
-using RankingAppTest.Data.Models;
+using SharedData.Models;
 
 #line default
 #line hidden
@@ -137,7 +137,7 @@ using RankingAppTest.Data.Services;
 
     async Task DeleteGameResult(GameResult gameResult)
     {
-        RankingService.DeleteGameResult(_gameResult);
+        var result = RankingService.DeleteGameResult(_gameResult);
         _gameResults = await RankingService.GetGameResultAsync();
     }
 
@@ -146,11 +146,11 @@ using RankingAppTest.Data.Services;
         if(_gameResult.id == 0)
         {
             _gameResult.Date = DateTime.Now;
-            var result = RankingService.AddGameResult(_gameResult);
+            var result = await RankingService.AddGameResult(_gameResult);
         }
         else
         {
-            var result = RankingService.UpdateGameResult(_gameResult);
+            var result = await RankingService.UpdateGameResult(_gameResult);
         }
 
         _gameResults = await RankingService.GetGameResultAsync();

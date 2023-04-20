@@ -6,11 +6,11 @@
     "iisExpress": {
       "applicationUrl": "http://localhost:62983",
       "sslPort": 44395
-    }
   },
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
+    }
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {

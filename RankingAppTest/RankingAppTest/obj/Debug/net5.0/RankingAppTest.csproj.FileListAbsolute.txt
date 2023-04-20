@@ -100,3 +100,5 @@ E:\StudyWebServer\RankingAppTest\RankingAppTest\obj\Debug\net5.0\RankingAppTest.
 E:\StudyWebServer\RankingAppTest\RankingAppTest\obj\Debug\net5.0\RankingAppTest.genruntimeconfig.cache
 E:\StudyWebServer\RankingAppTest\RankingAppTest\obj\Debug\net5.0\RazorDeclaration\Pages\Ranking.razor.g.cs
 E:\StudyWebServer\RankingAppTest\RankingAppTest\obj\Debug\net5.0\Razor\Pages\Ranking.razor.g.cs
+E:\StudyWebServer\RankingAppTest\RankingAppTest\bin\Debug\net5.0\SharedData.dll
+E:\StudyWebServer\RankingAppTest\RankingAppTest\bin\Debug\net5.0\SharedData.pdb
