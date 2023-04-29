@@ -13,14 +13,14 @@ public class GameResult
 
 public class WebManager : MonoBehaviour
 {
-    string baseUrl = "http://localhost:44395/api";
+    string baseUrl = "https://localhost:44395/api";
 
     void Start()
     {
-        var res = new GameResult
+        GameResult res = new GameResult
         {
             UserName = "rgl",
-            Score = 357
+            Score = 1000
         };
 
         SendPostRequest("ranking", res, (uwr) =>
@@ -36,17 +36,17 @@ public class WebManager : MonoBehaviour
 
     public void SendPostRequest(string url, GameResult obj, Action<UnityWebRequest> callback)
     {
-        StartCoroutine(SendWebRequest(url, "POST", obj, callback));
+        StartCoroutine(CoSendWebRequest(url, "POST", obj, callback));
     }
 
     public void SendGetAllRequest(string url, Action<UnityWebRequest> callback)
     {
-        StartCoroutine(SendWebRequest(url, "GET", null, callback));
+        StartCoroutine(CoSendWebRequest(url, "GET", null, callback));
     }
 
-    private IEnumerator SendWebRequest(string url, string method, object obj, Action<UnityWebRequest> callback)
+     IEnumerator CoSendWebRequest(string url, string method, object obj, Action<UnityWebRequest> callback)
     {
-        string sendUrl = $"{baseUrl}/{url}/";
+        string sendUrl = $"{baseUrl}/{url}";
         byte[] jsonBytes = null;
 
         if (obj != null)
@@ -60,7 +60,10 @@ public class WebManager : MonoBehaviour
         uwr.downloadHandler = new DownloadHandlerBuffer();
         uwr.SetRequestHeader("Content-Type", "application/json");
 
+
+
         yield return uwr.SendWebRequest();
+
 
         if (uwr.isNetworkError || uwr.isHttpError)
         {
