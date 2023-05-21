@@ -25,12 +25,12 @@ public class WebManager : MonoBehaviour
 
         SendPostRequest("ranking", res, (uwr) =>
         {
-            Debug.Log("TODO : UI 갱신하기");
+
         });
 
         SendGetAllRequest("ranking", (uwr) =>
         {
-            Debug.Log("TODO : UI 갱신하기");
+
         });
     }
 
